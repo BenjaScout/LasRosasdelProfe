@@ -1,0 +1,120 @@
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h2 {
+  vertical-align: middle;
+}
+
+
+.contenedor {
+  width:100%;
+  max-width:1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logotipo{
+  background-image: url(../imagenes/roses.jpg);
+  background-size: cover;
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+
+img{
+width: 50;
+height: auto;
+margin: auto;
+display:block;
+}
+
+
+
+header, .main, footer{
+  background: #gray;
+  width: 90%;
+  max-width: 1000px;
+  margin:20px auto;
+}
+
+header nav {
+  background:green;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 10px
+}
+
+header nav ul{
+  list-style:none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: #1CE700;
+}
+
+.main .articles {
+  width:68.5%;
+  margin-right:1.5%;
+  float:left;
+  }
+
+  .main .articles article {
+    position: relative;
+    left: 150px;
+    color: white;
+    padding:20px;
+    background-image: url(../imagenes/tierra.jpg);
+    margin-bottom:20px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+  }
+
+  footer{
+    background: #00171F;
+    color: white;
+    clear: both;
+    padding:10px 0px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px
+  }
+
+  body{
+    background:url(../imagenes/girasoles.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  @media screen and (max-width: 300px) {
+   .main .articles{
+     width: 100%;
+   }
